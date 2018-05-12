@@ -1,0 +1,6 @@
+all: wordget
+
+wordget: wordget.c
+
+	gcc wordget.c -o wordget.exe --std=c99
+     
